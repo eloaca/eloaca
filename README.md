@@ -14,3 +14,67 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+#### import eloaca.*
+#### public class Apresentacao {
+
+- <p> private Java java; </p>
+- <p> private Teste teste; </p>
+- <p> private FW framework; </p>
+- <p> private SQL sql; </p>
+- <p> private Agil agil; </p>
+- <p> private Idioma idioma; </p>
+- <p> private Others others; </p>
+- <p> private Contact contact; </p>
+
+<p>
+public Java getJava() {
+    return new Java (Java8, Java11, Maven, JPA, Hibernate, JSP);
+}
+</p>
+
+<p>
+public Teste getTeste() {
+    return new Teste (BDD, Junit, TestNG, EasyMock, Mockito);
+}
+</p>
+
+<p>
+public FW getSpring() {
+    return new FW (SpringBoot, Spring Data JPA, Spring Security);
+}
+</p>
+
+<p>
+public SQL getSql() {
+    return new SQL (MySQL, SQLServer);
+}
+</p>
+
+<p>
+public Agil getAgil() {
+    return new Agil (scrum, jira);
+}
+</p>
+
+<p>
+public Idioma getIdioma() {
+    return new Idioma (Portugues, Ingles);
+}
+</p>
+
+<p>
+public Others getOthers() {
+    return new Others (git, jenkins, postman, teams, office)
+}
+</p>
+
+<p>
+public Contact getContact() {
+    return  <a href="#" alt="Gmail">
+              <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-EMAIL" />
+            </a>
+}
+</p>
+
+#### }
