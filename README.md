@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=eloaca&show_icons=true&title_color=783c00&text_color=af552e&icon_color=783c00&bg_color=f8efd4&cache_seconds=2300">
+
+
 <!--
 **eloaca/eloaca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -65,13 +68,13 @@ public Idioma getIdioma() {
 
 <p>
 public Others getOthers() {
-    return new Others (git, jenkins, postman, teams, office)
+    return new Others (git, github, intellij, eclipse, jenkins, postman, teams, office)
 }
 </p>
 
 <p>
 public Contact getContact() {
-    return  <a href="elooa_@hotmail.com" alt="Gmail">
+    return  <a href="mailto:elooa_@hotmail.com?Body=Ol%E1%20Elo%E1%2C%20como%20vai%20%3F%20%0AVi%20seu%20perfil%20no%20Github%20...%20" alt="Gmail">
               <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=elooa_@hotmail.com" />
             </a>
             <a href="https://www.linkedin.com/in/elo%C3%A1-augusto-03114812b/" alt="Linkedin">
