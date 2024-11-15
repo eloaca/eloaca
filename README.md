@@ -23,6 +23,7 @@ Here are some ideas to get you started:
 - <p> private Teste teste; </p>
 - <p> private FW framework; </p>
 - <p> private SQL sql; </p>
+- <p> private AWS aws; </p>
 - <p> private Agil agil; </p>
 - <p> private Idioma idioma; </p>
 - <p> private Others others; </p>
@@ -30,7 +31,7 @@ Here are some ideas to get you started:
 
 <p>
 public Java getJava() {
-    return new Java (Java8, Java11, Maven, JPA, Hibernate, JSP);
+    return new Java (Java8, Java11, Java17, Kotlin*);
 }
 </p>
 
@@ -41,14 +42,20 @@ public Teste getTeste() {
 </p>
 
 <p>
-public FW getSpring() {
-    return new FW (SpringBoot, Spring Data JPA, Spring Security);
+public FW getFramework() {
+    return new FW (SpringBoot, Quarkus);
 }
 </p>
 
 <p>
 public SQL getSql() {
     return new SQL (MySQL, SQLServer);
+}
+</p>
+
+<p>
+public AWS getAws() {
+    return new AWS (ECS, IAM, S3, Lambda, Glue, DynamoDB, RDS);
 }
 </p>
 
@@ -66,7 +73,7 @@ public Idioma getIdioma() {
 
 <p>
 public Others getOthers() {
-    return new Others (git, github, intellij, eclipse, jenkins, postman, teams, office)
+    return new Others (git, github, intellij, jenkins, postman, insomnia, office)
 }
 </p>
 
@@ -76,7 +83,7 @@ public Contact getContact() {
               <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=elooa_@hotmail.com" />
             </a>
             <a href="https://www.linkedin.com/in/elo%C3%A1-augusto-03114812b/" alt="Linkedin">
-                <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/elo%C3%A1-augusto-03114812b/" />
+                <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=www.linkedin.com/in/eloá-augusto-03114812b/" />
             </a>
 }
 </p>
